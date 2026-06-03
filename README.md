@@ -1,5 +1,5 @@
-Dashboard cảnh báo sớm rủi ro hàng tồn kho tại Hoa Sen Group
-1. Tổng quan dự án
+Dự án xây dựng **Dashboard trên Power BI** nhằm hỗ trợ theo dõi và nhận diện sớm rủi ro hàng tồn kho tại **Công ty Cổ phần Tập đoàn Hoa Sen (HSG)**.
+## 1. Tổng quan dự án
 
 Dự án này xây dựng Dashboard trên Power BI nhằm hỗ trợ theo dõi và nhận diện sớm rủi ro hàng tồn kho tại Công ty Cổ phần Tập đoàn Hoa Sen (HSG).
 
@@ -7,13 +7,13 @@ Dashboard được thiết kế để chuyển hóa dữ liệu báo cáo tài c
 
 Trong phạm vi dự án, Dashboard không phải là hệ thống cảnh báo tự động theo thời gian thực, mà là công cụ trực quan hóa dữ liệu và hỗ trợ ra quyết định, trong đó các chỉ số được so sánh với ngưỡng xanh – vàng – đỏ để nhận diện trạng thái rủi ro.
 
-2. Bối cảnh thực hiện
+## 2. Bối cảnh thực hiện
 
 Ngành thép là ngành có tính chu kỳ cao, chịu ảnh hưởng mạnh từ biến động giá nguyên vật liệu, nhu cầu tiêu thụ và áp lực vốn lưu động. Với doanh nghiệp thép, hàng tồn kho không chỉ là khoản mục tài sản lớn mà còn ảnh hưởng trực tiếp đến giá vốn, biên lợi nhuận, dòng tiền và nhu cầu tài trợ ngắn hạn.
 
 Đối với Hoa Sen Group, giá thép cuộn cán nóng HRC là một biến số quan trọng vì có thể tác động đến rủi ro giảm giá hàng tồn kho và hiệu quả tài chính. Do đó, việc kết hợp dữ liệu tài chính với dữ liệu giá HRC giúp Dashboard hỗ trợ nhận diện rủi ro sớm hơn so với việc chỉ theo dõi báo cáo tài chính truyền thống.
 
-3. Mục tiêu dự án
+## 3. Mục tiêu dự án
 
 Dự án hướng đến các mục tiêu chính:
 
@@ -22,7 +22,7 @@ Tích hợp dữ liệu báo cáo tài chính và dữ liệu giá HRC vào Powe
 Trực quan hóa trạng thái rủi ro hàng tồn kho theo từng kỳ.
 Thiết lập ngưỡng cảnh báo xanh – vàng – đỏ cho các chỉ tiêu trọng yếu.
 Phân tích nguyên nhân rủi ro và hỗ trợ nhà quản trị đưa ra hành động phù hợp.
-4. Cấu trúc Dashboard
+## 4. Cấu trúc Dashboard
 
 Dashboard gồm 4 trang chính:
 
@@ -42,7 +42,7 @@ Trang 4: Cảnh báo sớm và hỗ trợ ra quyết định
 
 Tổng hợp các tín hiệu rủi ro, số chỉ báo đỏ, mức rủi ro kỳ tới, phân tích kịch bản giá HRC và đề xuất hành động quản trị.
 
-5. Các chỉ số chính
+## 5. Các chỉ số chính
 
 Dashboard sử dụng các nhóm chỉ số sau:
 
@@ -66,7 +66,7 @@ Giá HRC bình quân
 Biến động giá HRC 1 tháng
 Biến động giá HRC 3 tháng
 HRC lag để xem xét tác động có độ trễ đến biên lợi nhuận
-6. Phương pháp thực hiện
+## 6. Phương pháp thực hiện
 
 Quy trình xây dựng Dashboard gồm các bước:
 
@@ -77,13 +77,13 @@ Tạo các measure DAX để tính toán KPI/KRI.
 Thiết lập ngưỡng cảnh báo xanh – vàng – đỏ.
 Thiết kế các trang Dashboard theo logic từ tổng quan đến chi tiết.
 Xây dựng phân tích kịch bản HRC và khuyến nghị hành động.
-7. Công cụ sử dụng
+## 7. Công cụ sử dụng
 Microsoft Power BI
 Power Query
 DAX
 Dữ liệu báo cáo tài chính công bố
 Dữ liệu giá thép HRC từ nguồn thị trường
-8. Giá trị của dự án
+## 8. Giá trị của dự án
 
 Dashboard giúp chuyển các dữ liệu tài chính và thị trường rời rạc thành hệ thống thông tin trực quan, hỗ trợ người dùng:
 
@@ -95,7 +95,7 @@ Phân tích nguyên nhân rủi ro theo từng nhóm chỉ số.
 
 Dự án góp phần chuyển cách theo dõi hàng tồn kho từ hậu kiểm dựa trên báo cáo tài chính sang giám sát chủ động hơn dựa trên KPI/KRI và tín hiệu thị trường.
 
-9. Hạn chế
+## 9. Hạn chế
 
 Dự án chủ yếu sử dụng dữ liệu công khai từ báo cáo tài chính và dữ liệu giá HRC bên ngoài, do đó chưa phản ánh đầy đủ dữ liệu vận hành nội bộ của doanh nghiệp.
 
@@ -106,7 +106,7 @@ Chưa có dữ liệu tuổi hàng tồn kho.
 Chưa có dữ liệu chi tiết theo kho, khu vực hoặc nhóm sản phẩm.
 Chưa tích hợp dữ liệu đơn hàng, công nợ và kế hoạch mua nguyên vật liệu.
 Ngưỡng cảnh báo và kịch bản HRC mang tính mô phỏng phục vụ nghiên cứu, chưa phải chuẩn vận hành nội bộ chính thức.
-10. Hướng phát triển
+## 10. Hướng phát triển
 
 Trong tương lai, Dashboard có thể được mở rộng theo các hướng:
 
@@ -117,10 +117,13 @@ Cập nhật dữ liệu gần thời gian thực.
 Bổ sung cảnh báo tự động qua Power BI Service, email hoặc hệ thống nội bộ.
 Tích hợp mô hình dự báo DIO, giá HRC và rủi ro hàng tồn kho.
 Mở rộng phân tích theo khách hàng, thị trường tiêu thụ và khu vực bán hàng.
-11. Tên đề tài
 
-Ứng dụng Dashboard hỗ trợ cảnh báo sớm rủi ro hàng tồn kho tại Công ty Cổ phần Tập đoàn Hoa Sen
+## 11. Từ khóa
 
-12. Từ khóa
+`Power BI` `Dashboard` `Inventory Risk` `Early Warning` `Hoa Sen Group` `HSG` `HRC Price` `KPI` `KRI` `DAX` `Power Query` `Business Intelligence`
+## 👩‍💻 Tác giả
 
-Power BI Dashboard Inventory Risk Early Warning Hoa Sen Group HSG HRC Price KPI KRI DAX Power Query Business Intelligence
+**Nguyễn Thị Huyền Dịu**  
+Ngành: Phân tích dữ liệu kinh doanh  
+Đề tài: *Ứng dụng Dashboard hỗ trợ cảnh báo sớm rủi ro hàng tồn kho tại Công ty Cổ phần Tập đoàn Hoa Sen*
+
