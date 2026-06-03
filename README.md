@@ -125,5 +125,6 @@ Mở rộng phân tích theo khách hàng, thị trường tiêu thụ và khu v
 
 **Nguyễn Thị Huyền Dịu**  
 Ngành: Phân tích dữ liệu kinh doanh  
-Đề tài: *Ứng dụng Dashboard hỗ trợ cảnh báo sớm rủi ro hàng tồn kho tại Công ty Cổ phần Tập đoàn Hoa Sen*
+Đề tài: *Ứng dụng Dashboard hỗ trợ cảnh báo sớm rủi ro hàng tồn kho tại Công ty Cổ phần Tập đoàn Hoa Sen* 
+🔗 **Link Dashboard Power BI:** [Xem Dashboard tại đây] https://drive.google.com/file/d/1BqtYj-cX1qYikegJDVMpmUnM_TLz9yiZ/view?usp=drive_link
 
