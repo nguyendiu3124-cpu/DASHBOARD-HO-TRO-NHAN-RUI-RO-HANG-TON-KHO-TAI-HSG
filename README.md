@@ -27,19 +27,19 @@ Phân tích nguyên nhân rủi ro và hỗ trợ nhà quản trị đưa ra hà
 Dashboard gồm 4 trang chính:
 
 Trang 1: Tổng quan rủi ro hàng tồn kho
-
+![Trang 1 - Tổng quan rủi ro hàng tồn kho](images/dashboard_overview.png)
 Theo dõi quy mô hàng tồn kho, tốc độ tăng trưởng hàng tồn kho, DIO, vòng quay hàng tồn kho và trạng thái rủi ro tổng thể.
 
 Trang 2: Hiệu quả tài chính của hàng tồn kho
-
+![Trang 2 - Hiệu quả tài chính của hàng tồn kho](images/financial_efficiency.png)
 Phân tích tác động của hàng tồn kho đến biên lợi nhuận gộp, dự phòng giảm giá hàng tồn kho, dòng tiền hoạt động kinh doanh và nợ vay ngắn hạn.
 
 Trang 3: Phân tích nguyên nhân và tương quan
-
+![Trang 3 - Phân tích nguyên nhân và tương quan](images/risk_drivers.png)
 Kết hợp dữ liệu nội tại doanh nghiệp với biến động giá HRC để nhận diện các yếu tố dẫn dắt rủi ro như DIO cao, HRC giảm, dòng tiền yếu hoặc tỷ trọng tồn kho lớn.
 
 Trang 4: Cảnh báo sớm và hỗ trợ ra quyết định
-
+![Trang 4 - Cảnh báo sớm và hỗ trợ ra quyết định](images/decision_support.png)
 Tổng hợp các tín hiệu rủi ro, số chỉ báo đỏ, mức rủi ro kỳ tới, phân tích kịch bản giá HRC và đề xuất hành động quản trị.
 
 ## 5. Các chỉ số chính
